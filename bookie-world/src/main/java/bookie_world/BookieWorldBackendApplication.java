@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookieWorldApiApplication {
+public class BookieWorldBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookieWorldApiApplication.class, args);
+		SpringApplication.run(BookieWorldBackendApplication.class, args);
 	}
 
 }
