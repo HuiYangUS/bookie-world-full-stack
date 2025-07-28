@@ -39,7 +39,7 @@ public class Role {
 	private String name;
 
 	/**
-	 * No data conversion, target property name & obj refs
+	 * Create 'roles' table in the database
 	 */
 	@ManyToMany(mappedBy = "roles")
 	@JsonIgnore

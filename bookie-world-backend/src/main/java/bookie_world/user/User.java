@@ -113,8 +113,7 @@ public class User implements UserDetails, Principal {
 		return this.accountEnabled;
 	}
 
-	@SuppressWarnings("unused")
-	private String fullName() {
+	public String fullName() {
 		return this.firstName + " " + this.lastName;
 	}
 

@@ -12,6 +12,9 @@ import lombok.Builder;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * Activation token for new account
+ */
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor

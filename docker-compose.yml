@@ -4,8 +4,8 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: sudo666
-      PGDATA: /var/lib/postgressql/data
+      POSTGRES_PASSWORD: 123456
+      PGDATA: /var/lib/postgresql/data
       POSTGRES_DB: bookie_world
     volumes:
       - postgres:/data/postgres
@@ -21,10 +21,9 @@ services:
       - 1080:1080
       - 1025:1025
 
-
 networks:
-  driver: bridge
-
+  spring-demo:
+    driver: bridge
 
 volumes:
   postgres:

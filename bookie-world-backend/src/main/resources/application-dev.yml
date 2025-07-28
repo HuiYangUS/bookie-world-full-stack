@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/bookie_world
     username: admin
-    password: sudo666
+    password: 123456
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -16,15 +16,15 @@ spring:
   mail:
     host: localhost
     port: 1025
-    username: admin
-    password: 123456
+    username: demo
+    password: pass
     properties:
       mail:
         smtp:
           trust: "*"
         auth: true
         starttls:
-          enable: true
+          enabled: true
         connectiontimeout: 5000
         timeout: 3000
         writetimeout: 5000
@@ -32,5 +32,11 @@ spring:
 application:
   security:
     jwt:
-      secret: b38188820df0322fe91f3d0745019852
+      secret: 63f4945d921d599f27ae4fdf5bada3f1
       expiration: 1800000
+  mailing:
+    frontend:
+      activation_url: http://localhost:4200/activation
+
+server:
+  port: 8088
