@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.utech</groupId>
-	<artifactId>bookie-world</artifactId>
+	<artifactId>bookie-world-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookie-world-api</name>
 	<description>Book Sharing REST Web APIs</description>
